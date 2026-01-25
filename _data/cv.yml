@@ -1,10 +1,10 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Musawar Ali
+  label: Computer Vision Engineer
+  email: engrmusawar@gmail.com
+  location: Via del Pozzo, No. 6 – 42121 Reggio Emilia (Italy)
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Having completed my undergraduate and master’s studies in Software/Computer Engineering in Pakistan, I began in 2022 my PhD in Computer Science and Engineering at the University of Bologna. I have submitted thesis which has been reviewed and expect the final award in April 2026. My areas of focus have been computer vision, and generative models such as diffusion models and neural radiance fields. I am now seeking opportunities in Computer Vision and related fields so as to continue advancing my work in these areas, with a preference for positions in Europe.
 
   social_networks:
     - network: X
@@ -15,175 +15,184 @@ cv:
       username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Via del Pozzo, 6
+    city: Reggio Emilia
+    region:
+    postalCode: 42121, Italy
+    countryCode: Italy
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: University of Bologna
+        location: Bologna, Italy
+        url: https://www.unibo.it/it
+        area: Computer Science and Engineering
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
+        start_date: 2022
+        end_date: 2026
         score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+        #courses: "Theory of Relativity"
+        #highlights:
+       #   - Description 1.
+        #  - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+        location: Swabi, Pakistan
+        area: Computer Engineering
+        studyType: MS
+        start_date: 2018
+        end_date: 2020
+
+      - institution: Mehran University of Engineering and Technology
+        location: Jamshoro, Pakistan
+        area: Software Engineering
+        studyType: BE
+        start_date: 2012
+        end_date: 2016
+       # highlights#
+        #  - Description 1.
+       #  $ - Description 2.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: "EyeCan.AI"
+        position: PhD Researcher
+        location: Bologna, Italy
+        start_date: 2022
+        end_date: 2025
+       # summary:
+       # highlights:
+        #  - Relativity
+         # - Description 2.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: FAST National university of Computer and Emerging Sciences
+        position: Lecturer
+        location: Karachi, Pakistan
+        start_date: 2020
+        end_date: 2022
+      #  highlights:
+       #   - Description 1.
+       #   - Description 2.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+        position: Graduate Assistant
+        location: Swabi, Pakistan
+        start_date: 2018
+        end_date: 2020
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - company: The Indus Hospital
+        position: Software Engineer
+        location: Lahore, Pakistan
+        start_date: 2016
+        end_date: 2017
+        #location: Zurich, Switzerland
+        #start_date: 2014-04-01
+       # end_date: 2015-07-01
+       # summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      #  highlights:
+       #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+        #  - "Men of the year 2014 by Time magazine"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    #Awards:
+     # - title: Nobel Prize in Physics
+      #  authors:
+       #   - "Royal Swedish Academy of Sciences"
+       # date: 1921-11-01
+       # awarder: Royal Swedish Academy of Sciences
+       # url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+       # summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      #- title: Max Planck Medal
+       # authors:
+        #  - "German Physical Society"
+        #date: 2029
+        #awarder: German Physical Society
+        #summary: Awarded for outstanding scientific achievement
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Few-Shot Anomaly Classification by Learning to Inpaint Nominal Images
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Rubin Carkaxhia, Musawar Ali, Nicola Fioraio, Luigi Di Stefano, Samuele Salti,
+        publisher: International Conference on Image Analysis and Processing
+        releaseDate: 2025-09-15
+        url: https://link.springer.com/chapter/10.1007/978-3-032-10185-3_41
+        summary: Automated inspection is a crucial aspect in modern industrial manufacturing. Despite its importance, the methods used to perform it suffer from the data scarcity intrinsic to the problem, where only a few anomalous samples are usually available. Recently, fine-tuning of foundation inpainting models has been proposed as a solution. The fine-tuned model is then used to inpaint nominal images where areas corresponding to defective masks have been removed. While effective, random pairing sometimes applies the mask on background or logically unfeasible areas. To counteract this phenomenon, we experiment with generating high-resolution defective images inpainting the few available real defects. Since the resulting images would show limited variance in the non-defective parts, we propose to fine-tune another inpainting model to change nominal parts of generated images. Experimental results on the MVTec-AD dataset demonstrate that our method generates images with complementary properties with respect to those produced by the baseline and training on an ensemble of generated data produces a new state of the art result.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "AnomalyControl: Few-Shot Anomaly Generation by ControlNet Inpainting"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Musawar Ali, Nicola Fioraio, Samuele Salti, Luigi Di Stefano
+        publisher: IEEE Access
+        releaseDate: 2024-12-18
+        url: https://ieeexplore.ieee.org/abstract/document/10806704/
+        summary: Quality inspection tasks, i.e., anomaly detection, localization and classification, face the scarcity of non-nominal images in real industrial scenarios. Hence, generative models have been explored as a tool to obtain defective images from few real labelled samples. Despite the fast-increasing quality of such models, generating realistic defective images remains a challenging task due to the same data scarcity problem, which makes it difficult to steer large general-purpose models to produce realistic defects for specific industrial products. In this paper, we show how casting defect generation as inpainting of nominal images and using ControlNet to specialize a state-of-the-art inpainting model based on stable diffusion can be an effective solution for the few-shot anomaly generation task. Extensive experimental results on the MVTec-AD dataset demonstrate that the high quality of the images generated by our method significantly improves the state of the art on downstream anomaly classification.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "A novel framework for generating handwritten datasets"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Sajid Anwar, Bilal Mehrban, Musawar Ali, Farhan Hussain, Zahid Halim
+        publisher: Multimedia Tools and Applications
+        releaseDate: 2021-03-01
+        url: https://link.springer.com/article/10.1007/s11042-020-09545-7
+        summary: "The performance of deep learning algorithms is highly dependent on the size and diversity of data. However, for handwritten character recognition, dataset creation, segmentation, and labeling are time consuming and laborious tasks and not much researched. This work proposes a novel and generic framework which automates the segmentation and labeling processes for handwritten datasets. First, a user collects handwritten glyphs on the proposed form. Next, based on a priori knowledge, local peaks from horizontal and vertical projection functions are computed. This helps in locating and segmenting individual samples automatically. To show the effectiveness of the proposed framework, a dataset of 160,000 samples is collected for an oriental language. We profile the segmentation of samples from one sheet with three approaches: manual, semi-automatic, and the proposed fully automatic approach. Compared to the manual and semi-automatic processes, the proposed approach is 120 × and 65 × faster, respectively. Further, we also present the classification of this dataset by traditional and state-of-the-art machine learning algorithms."
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+
+
+      #  Skills:
+   #   - name: Physics
+    #    level: Master
+     #   icon: fa-solid fa-hashtag
+      #  keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Sindhi
+        summary: "Native Speaker"
+
+      - name: Urdu
+        summary: "Fluent"
 
       - name: English
         summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Italian
+        summary: "Basic"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+   # Interests:
+    #  - name: Computer Vi
+     #   icon: fa-solid fa-tag
+      #  keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    #Certificates:
+     # - name: Machine Learning
+      #  date: 2018-01-01
+       # issuer: Stanford University
+       # icon: fa-solid fa-location-dot
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      #- name: Quantum Computing
+      #  date: 2018-01-01
+       # issuer: Stanford University
+       # icon: fa-solid fa-tag
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      #- name: Quantum Information
+       # date: 2018-01-01
+       # issuer: Stanford University
+       # icon: fa-solid fa-envelope
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+  #  Projects:
+   #   - name: Quantum Computing
+    #    summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+     #   highlights:
+      #    - Quantum Teleportation
+       #   - Quantum Cryptography
+        #start_date: 2018-01-01
+        #end_date: 2018-01-01
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    #References:
+     # Available on Request
+
+      #- name: Professor John Doe
+       # icon: fa-solid fa-laptop
+        #reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
