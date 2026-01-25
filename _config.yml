@@ -53,8 +53,8 @@ external_services:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: false
-footer_fixed: false
+navbar_fixed: true
+footer_fixed: true
 search: false
 search_enabled: false
 socials_in_search: false
