@@ -4,6 +4,7 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
+    gem 'webrick', '~> 1.8'
     gem 'wdm', '>= 0.1.0'
     gem 'jekyll-3rd-party-libraries'
     gem 'jekyll-archives-v2'

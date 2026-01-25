@@ -332,6 +332,7 @@ DEPENDENCIES
   observer
   ostruct
   wdm (>= 0.1.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
   4.0.4
