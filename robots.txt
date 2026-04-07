@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://musawar.ali.github.io/sitemap.xml
+Sitemap: https://musawarali.github.io/sitemap.xml
