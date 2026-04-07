@@ -2,14 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle:  PhD Student @ <a href=https://www.unibo.it/it>University of Bologna</a>.
+subtitle: PhD Student @ <a href=https://www.unibo.it/it>University of Bologna</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

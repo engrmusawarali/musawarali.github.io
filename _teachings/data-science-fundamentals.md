@@ -13,13 +13,11 @@ schedule:
   #  date: Feb 5
   #  topic: Introduction to Data Science
   #  description: Overview of the data science workflow and key concepts.
-   # materials:
-    #  - name: Syllabus
-     #   url: /assets/pdf/example_pdf.pdf
-     # - name: Slides
-   #     url: /assets/pdf/example_pdf.pdf
-
-  
+  # materials:
+  #  - name: Syllabus
+  #   url: /assets/pdf/example_pdf.pdf
+  # - name: Slides
+  #     url: /assets/pdf/example_pdf.pdf
 ---
 
 ## Course Overview
@@ -43,9 +41,9 @@ This course provides a comprehensive introduction to programming principles and 
 - None
 
 ## Textbooks
+
 - C How to program - 7th Edition
 - Problem Solving and programming concepts - 9th Edition
-
 
 ## Grading
 
@@ -54,4 +52,3 @@ This course provides a comprehensive introduction to programming principles and 
 - MID - I: 15%
 - MID - II: 15%
 - Finals: 50%
-
