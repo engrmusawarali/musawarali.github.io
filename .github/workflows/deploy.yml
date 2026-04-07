@@ -24,6 +24,9 @@ jobs:
           ruby-version: "3.2"
           bundler-cache: true
 
+      - name: Install Python dependencies
+        run: pip install jupyter
+
       - name: Build Jekyll site
         run: |
           bundle install
@@ -60,6 +63,9 @@ jobs:
         with:
           ruby-version: "3.2"
           bundler-cache: true
+
+      - name: Install Python dependencies
+        run: pip install jupyter
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
