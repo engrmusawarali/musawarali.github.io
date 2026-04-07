@@ -2,20 +2,29 @@ version: '3.8'
 
 services:
   jekyll:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: al-folio:latest
+    build: .
+    image: al-folio:dev
     container_name: al-folio-dev
     ports:
       - "8080:8080"
       - "35729:35729"
+    environment:
+      - JEKYLL_ENV=development
     volumes:
       - .:/srv/jekyll
       - /srv/jekyll/.jekyll-cache
       - /srv/jekyll/node_modules
-    environment:
-      - JEKYLL_ENV=development
+    develop:
+      watch:
+        - path: ./
+          action: rebuild
+          target: /srv/jekyll
+        - path: ./_posts
+          action: sync
+          target: /srv/jekyll/_posts
+        - path: ./_pages
+          action: sync
+          target: /srv/jekyll/_pages
     stdin_open: true
     tty: true
     command: bundle exec jekyll serve --host 0.0.0.0 --port 8080 --livereload --strict_front_matter
