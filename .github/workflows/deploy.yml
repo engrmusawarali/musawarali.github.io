@@ -1,17 +1,12 @@
-name: Build, Test & Deploy
+name: Build and Deploy
 
 on:
   push:
     branches:
       - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,57 +19,38 @@ jobs:
           ruby-version: "3.2"
           bundler-cache: true
 
-      - name: Install Python dependencies
+      - name: Install Python
         run: pip install jupyter
 
-      - name: Build Jekyll site
-        run: |
-          bundle install
-          bundle exec jekyll build
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
 
-      - name: Validate Jekyll output
-        run: |
-          if [ ! -d "_site" ]; then
-            echo "Jekyll build failed - _site directory not found"
-            exit 1
-          fi
-          echo "Jekyll build completed successfully"
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyll-site
+          path: _site/
 
-  deploy-pages:
+  deploy:
+    needs: build
     runs-on: ubuntu-latest
-    needs: test
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     permissions:
-      contents: read
       pages: write
       id-token: write
-      deployments: write
 
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Download artifact
+        uses: actions/download-artifact@v4
         with:
-          ruby-version: "3.2"
-          bundler-cache: true
-
-      - name: Install Python dependencies
-        run: pip install jupyter
-
-      - name: Build Jekyll site
-        run: bundle exec jekyll build
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "_site"
+          name: jekyll-site
+          path: _site
 
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
