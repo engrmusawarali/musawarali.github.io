@@ -24,7 +24,7 @@ latest_posts:
   limit: 0 # leave blank to include all the blog posts
 ---
 
-I did my undergraduate and master’s studies in Software/Computer Engineering in Pakistan. In March2026, I completed my
+I did my undergraduate and master’s studies in Software/Computer Engineering in Pakistan. In March 2026, I completed my
 PhD in Computer Science and Engineering from University of Bologna. My areas of focus are computer vision, and generative models such as diffusion models and neural radiance fields. I am now seeking opportunities in
 Computer Vision and related fields so as to continue advancing my work in these areas, with a
 preference for positions in Italy/Europe .
