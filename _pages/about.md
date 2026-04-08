@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student @ <a href=https://www.unibo.it/it>University of Bologna</a>.
+subtitle: Computer Vision Researcher | PhD in Computer Science and Engineering from <a href=https://www.unibo.it/it>University of Bologna</a>.
 
 profile:
   align: right
@@ -24,9 +24,7 @@ latest_posts:
   limit: 0 # leave blank to include all the blog posts
 ---
 
-Having completed my undergraduate and master’s studies in Software/Computer Engineering in
-Pakistan, I began in 2022 my PhD in Computer Science and Engineering at the University of Bologna. I
-have submitted thesis which has been reviewed and expect the final award in April 2026. My areas
-of focus have been computer vision, and generative models such as diffusion models and neural
-radiance fields. I am now seeking opportunities in Computer Vision and related fields so as to
-continue advancing my work in these areas, with a preference for positions in Europe.
+I did my undergraduate and master’s studies in Software/Computer Engineering in Pakistan. In March2026, I completed my
+PhD in Computer Science and Engineering from University of Bologna. My areas of focus are computer vision, and generative models such as diffusion models and neural radiance fields. I am now seeking opportunities in
+Computer Vision and related fields so as to continue advancing my work in these areas, with a
+preference for positions in Italy/Europe .
